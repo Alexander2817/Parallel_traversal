@@ -1,0 +1,23 @@
+#CXXFLAGS=-I path/to/rapidjson
+LDFLAGS=-lcurl
+LD=g++
+CC=g++
+
+all: level_client par_level_client
+
+CXXFLAGS=-I./rapidjson/include
+
+level_client: level_client.o
+	$(LD) $< -o $@ $(LDFLAGS)
+
+level_client.o: level_client.cpp
+$(CC) $(CXXFLAGS) -c level_client.cpp -o level_client.o
+
+par_level_client: par_level_client.o
+	$(CC) $< -o $@ $(LDFLAGS)
+
+par_level_client.o: par_level_client.cpp
+$(CC) $(CXXFLAGS) -c par_level_client.cpp -o par_level_client.o
+
+clean:
+	-rm level_client level_client.o par_level_client par_level_client.o
