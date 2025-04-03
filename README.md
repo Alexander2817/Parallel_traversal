@@ -1,7 +1,7 @@
 # Parallel_traversal
 Overview
 
-This project implements a graph traversal program using both sequential and parallel breadth-first search (BFS). It includes:
+This project implements a graph traversal program using both sequential and parallel breadth-first search (BFS) and outputting them into seperate result files to compare between sequential BFS and parallel BFS. It includes:
 
 ## Requirements
 
