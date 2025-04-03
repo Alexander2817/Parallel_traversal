@@ -6,7 +6,7 @@ This project implements a graph traversal program using both sequential and para
 
 ## Files
 
-**-level_client.cpp**: Implements the sequential graph traversal.
+**level_client.cpp**: Implements the sequential graph traversal.
 
 -par_level_client.cpp: Implements the parallel graph traversal.
 
