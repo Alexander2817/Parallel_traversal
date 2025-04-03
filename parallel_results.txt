@@ -1,0 +1,91 @@
+Running Depth 1 for par_level_client...
+- Tom%20Hanks
+1
+0
+Time to crawl: 0.182144s
+
+real	0m0.190s
+user	0m0.004s
+sys	0m0.005s
+
+Running Depth 2 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+Time to crawl: 0.192014s
+
+real	0m0.199s
+user	0m0.002s
+sys	0m0.005s
+
+Running Depth 3 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+0
+Time to crawl: 0.184757s
+
+real	0m0.193s
+user	0m0.003s
+sys	0m0.005s
+
+Running Depth 4 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+0
+0
+Time to crawl: 0.190701s
+
+real	0m0.198s
+user	0m0.004s
+sys	0m0.003s
+
+Running Depth 5 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+0
+0
+0
+Time to crawl: 0.189215s
+
+real	0m0.197s
+user	0m0.002s
+sys	0m0.006s
+
+Running Depth 6 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+0
+0
+0
+0
+Time to crawl: 0.19935s
+
+real	0m0.207s
+user	0m0.005s
+sys	0m0.003s
+
+Running Depth 7 for par_level_client...
+- Tom%20Hanks
+1
+0
+0
+0
+0
+0
+0
+0
+Time to crawl: 0.199212s
+
+real	0m0.207s
+user	0m0.005s
+sys	0m0.003s
+
