@@ -3,14 +3,10 @@ Overview
 
 This project implements a graph traversal program using both sequential and parallel breadth-first search (BFS). It includes:
 
-## Files
--level_client: A sequential BFS implementation.
-
--par_level_client: A parallel BFS implementation.
 
 ## Files
 
--level_client.cpp: Implements the sequential graph traversal.
+**-level_client.cpp**: Implements the sequential graph traversal.
 
 -par_level_client.cpp: Implements the parallel graph traversal.
 
