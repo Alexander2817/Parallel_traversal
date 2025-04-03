@@ -47,17 +47,15 @@ compilation command. Assuming the cloned folder is in your home directory:
 
 ## Files
 
-1.**level_client.cpp**: Implements the sequential graph traversal.
+1. **level_client.cpp**: Implements the sequential graph traversal.
 
-2.**par_level_client.cpp**: Implements the parallel graph traversal.
+2. **par_level_client.cpp**: Implements the parallel graph traversal.
 
--Makefile: Compilation instructions for building the executables.
+3. **Makefile**: Compilation instructions for building the executables.
 
--myscript.sh: A SLURM batch script to automate execution and measure performance.
+4. **myscript.sh**: A SLURM batch script to automate execution and measure performance.
 
--rapidjson/: Contains the RapidJSON library for JSON parsing.
-
--output_files.txt: Stores combined results from both sequential and parallel executions.
+5. **output_files.txt**: Stores combined results from both sequential and parallel executions.
 
 -sequential_results.txt: Stores results of sequential BFS execution.
 
