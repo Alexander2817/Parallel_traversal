@@ -30,7 +30,7 @@ compilation command. Assuming the cloned folder is in your home directory:
 
 ## Compilation
 
-1. Clone the repository or download the `graph_crawler.cpp`, `Makefile`, and `README.md` files.
+1. Clone the repository
    
 2. Update the Makefile RAPIDJSON_PATH to where you cloned rapidjson into.
 
@@ -38,11 +38,7 @@ compilation command. Assuming the cloned folder is in your home directory:
    ```bash
    make
    ```
-   If the Makefile does not work, use the following command in the terminal:
-   ```bash
-   g++ -Wall -std=c++11 -I ./rapidjson/include graph_crawler.cpp -o graph_crawler -lcurl
-   ```
-4. To run more tests, edit the nodes or the depth in the graph_script.sh file.
+4. To run more tests, edit the nodes or the depth in the myscript.sh file.
 
 
 ## Files
@@ -57,9 +53,7 @@ compilation command. Assuming the cloned folder is in your home directory:
 
 5. **output_files.txt**: Stores combined results from both sequential and parallel executions.
 
--sequential_results.txt: Stores results of sequential BFS execution.
+6. **sequential_results.txt**: Stores results of sequential BFS execution.
 
--parallel_results.txt: Stores results of parallel BFS execution.
-
-##Installation
+7. **parallel_results.txt**: Stores results of parallel BFS execution.
 
