@@ -8,6 +8,7 @@
 #include <stdexcept>
 #include <thread>
 #include <mutex>
+#include <vector>
 #include "rapidjson/error/error.h"
 #include "rapidjson/reader.h"
 
