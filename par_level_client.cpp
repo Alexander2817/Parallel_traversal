@@ -116,7 +116,7 @@ vector<vector<string>> parallel_bfs(CURL* curl, const string& start, int depth) 
         if (debug)
           std::cout<<"starting level: "<<d<<"\n";
         levels.push_back({});
-        vector<thread> vectorOfThreads;
+        std::vector<std::thread> vectorOfThreads;
         
         for (string& s : levels[d]){
             vectorOfThreads.emplace_back([&, s]() {
